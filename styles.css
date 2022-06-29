@@ -1,0 +1,57 @@
+body {
+    background-color: #d4fadd;
+}
+
+h1 {
+    background-color: #5f8a69;
+    margin: 0px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+
+nav ul {
+    background-color: #3f6e48;
+    height: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 35px;
+    font-size: 2rem;
+}
+
+#heroImg {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+#introParagraph {
+    width: 75%;
+    font-size: 1.15rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: block;
+    background-color: white;
+    padding: 1rem;
+}
