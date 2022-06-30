@@ -10,15 +10,9 @@ function askYears() {
 };
 
 function tryAgain() {
-    let userYears = prompt("I was looking for a number! How many years since your last vacation?");
-    if (userYears >= 3) {
-        document.write("Sounds like you could use a break!");
-    } else if (userYears > 3) {
-        document.write("Let's plan your next one!");
-    } else {
-        tryAgain(); 
-    };
-}
+    confirm("I was looking for a number! Let's try that again.");
+    askYears();
+};
 
 function makeSuggestion() {
     let text = "Which do your prefer?\nPress OK for Hiking or Cancel for Snorkeling"
