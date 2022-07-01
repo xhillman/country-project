@@ -2,7 +2,7 @@ function askYears() {
     let userYears = prompt("When was the last time you took a trip? How many years?");
     if (userYears >= 3) {
         document.write("Sounds like you could use a break!");
-    } else if (userYears > 3) {
+    } else if (userYears < 3) {
         document.write("Let's plan your next one!");
     } else {
         tryAgain(); 
@@ -45,7 +45,7 @@ function rateCountry() {
         notAnOption();
     } else {
         for (let i = 0; i < userRating; i++) {
-            document.write("<img src='img/clipart1753277.png' style='width:50px'>");
+            document.write("<img src='img/clipart1753277.png' style='width:50px;'>");
         };
     document.write("out of 5!");
     };
